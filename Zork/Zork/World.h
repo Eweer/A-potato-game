@@ -3,6 +3,8 @@
 
 #include "Rooms.h"
 #include "Players.h"
+#include <stdio.h>
+#include <string>
 
 class World
 {
@@ -18,11 +20,14 @@ private:
 
 	Players* player;
 
-	void move(char a);
+	void move(action a);
+	action TransformInput(const std::string input);
 
 public:
 	World();
-	int CheckInput();
+	void CreateWorld();
+	bool CheckInput();
+	void Output();
 	~World();
 };
 

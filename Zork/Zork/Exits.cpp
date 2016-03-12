@@ -43,38 +43,40 @@ void Exits::create_exits(location place) {
 	}
 }
 
-bool Exits::check_direction(char input) {
+bool Exits::check_direction(action input) {
 	switch (input) {
-	case 'n':
+	case NORTH:
 		return (north != NOTHING);
 		break;
-	case 'e':
+	case EAST:
 		return (east != NOTHING);
 		break;
-	case 's':
+	case SOUTH:
 		return (south != NOTHING);
 		break;
-	case 'w':
+	case WEST:
 		return (west != NOTHING);
 		break;
 	}
 }
 
-location Exits::move_player(char input) {
-	if (check_direction(input)) {
-		switch (input) {
-		case 'n':
-			return north;
-			break;
-		case 'e':
-			return east;
-			break;
-		case 's':
-			return south;
-			break;
-		case 'w':
-			return west;
-			break;
-		}
+location Exits::move_player(action input) {
+//	if (check_direction(input)) {
+	switch (input) {
+	case NORTH:
+		return north;
+		break;
+	case EAST:
+		return east;
+		break;
+	case SOUTH:
+		return south;
+		break;
+	case WEST:
+		return west;
+		break;
+	default:
+		return NOTHING;
 	}
+	//}
 }

@@ -13,4 +13,15 @@ enum location {
 	NOTHING
 };
 
+enum action {
+	NORTH,
+	EAST,
+	SOUTH,
+	WEST,
+	OPEN,
+	CLOSE,
+	NOPE,
+	EXIT_GAME
+};
+
 #endif //_GLOBALS_H_

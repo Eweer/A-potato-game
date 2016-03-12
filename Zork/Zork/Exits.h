@@ -8,12 +8,12 @@ class Exits
 
 	location north, south, east, west;
 
-	bool check_direction(char input);
+	bool check_direction(action input);
 
 public:
 	Exits();
 	void create_exits(location place);
-	location move_player(char input);
+	location move_player(action input);
 };
 
 #endif //__EXITS_H__

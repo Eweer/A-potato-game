@@ -15,8 +15,9 @@ private:
 
 public:
 	Rooms();
-	void Create_Rooms();
-	location move(char a);
+	void CreateRoom(location loc);
+	location move(action a);
+	std::string GetDescription();
 	~Rooms();
 };
 
