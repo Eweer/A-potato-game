@@ -15,7 +15,8 @@
  Author: Oriol Rodríguez Vidal
  
  Map:
- +
+ 
+ 
            Church Backyard
                  
                  |    <-//There is a door between this two places.
