@@ -16,12 +16,20 @@
  
  Map:
  +
- +          Church Backyard
- +                |    <-//There is a door between this two places.
- +              Church
- +                |
- +Coffee ---- Fountain ---- Town Hall
- +                |
- +              Park ------- School
- +                |
- +            Building
+           Church Backyard
+           
+                 |    <-//There is a door between this two places.
+                 
+               Church
+               
+                 |
+                 
+ Coffee ---- Fountain ---- Town Hall
+ 
+                 |
+                 
+               Park ------- School
+               
+                 |
+                 
+              Building
