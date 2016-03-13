@@ -1,4 +1,4 @@
-+# A-potato-game
+# A-potato-game
  +Zork 01 - Programación 2
  
  Instructions:
